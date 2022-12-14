@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>yoga classes</title>
+        <link rel="stylesheet" href="css/thank.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="box">
+            <label for="name">name: <%= user.firstname %> <%= user.middlename %> <%= user.lastname %> </label>
+            <br>
+            <br>
+            <label>batch timing: <%= user.batch %></label>
+            <br>
+            <br>
+            <label>age: <%= user.age %></label>
+            <br>
+            <br>
+            <label>note your id: <%= user._id %></label>
+            <br>
+            <br>
+            <label>payement: <span>pending</span></label>
+            <br>
+            <br>
+            <span>*do your payment as soon as possible</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-image: url('../images/images.jpeg');
+    height: 100vh;
+    text-transform: uppercase;
+   
+}
+.box{
+   
+    margin-left: 30%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding-left: 10%;
+    padding-right: 1%;
+    color: black;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.box:hover{
+    
+        margin-left: 30%;
+margin-top: 10%;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.8;
+    padding-left: 10%;
+    padding-right: 1%;
+    color: white;
+    margin-right: 30%;
+}
+span{
+    color: red;
+}
